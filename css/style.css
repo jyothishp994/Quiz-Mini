@@ -1,0 +1,157 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=PT+Sans&family=Roboto:wght@500&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=PT+Sans&display=swap');
+body{
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.headertitle{
+    font-size: 3rem;
+    font-family: 'Rowdies', cursive;
+    padding-bottom: 3rem;
+    align-self: center;
+}
+.header-sub-title{
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Rowdies', cursive;
+    align-self: center;
+}
+.quiz-card-main{
+    display: flex;
+    justify-content: center;
+    gap:1%;
+    flex-wrap: wrap;
+}
+.quiz-card{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #231F20;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+}
+
+.quiz-card-img{
+    width: 30rem;
+    max-width: 100%;
+
+}
+.quiz-card-wrapper{
+    position: relative;
+}
+
+.quiz-movie-name{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    z-index: 1;
+    color: red;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-family: 'Rowdies', cursive;
+}
+.quiz-name{
+    font-size: 1.5rem;
+    font-family: 'Rowdies', cursive;
+    align-self: center;
+}
+.quiz-desc,.quiz-num{
+    padding: 0.5rem;
+    font-family: serif;
+}
+.btn{
+    width: 100%;
+    background-color:darkgreen;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-family: 'Rowdies', cursive;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.quiz-card-rule{
+    display: flex;
+    flex-direction: column;
+
+    width: 50rem;
+    border-radius: 1.5rem;
+    padding: 0.25rem;
+    gap:2rem;
+}
+.quiz-desc-rule{
+    background-color: #231F20;
+    padding: 0.25rem;
+}
+.quiz-card-main-rule{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rowdies', cursive;
+}
+.header-sub-title-rules{
+    align-self: center;
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: 'Rowdies', cursive;
+}
+.quiz-score{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    font-family: 'Rowdies', cursive;
+}
+.question-score{
+    margin-left: auto;
+}
+.answer-opt{
+margin-bottom: 0.5rem;
+margin-top: 0.5rem;
+background-color: black;
+border-radius: 2rem;
+}
+.question-ask{
+    display: flex;
+    flex-direction: column;
+    font-family:cursive;
+    font-family: 'Rowdies', cursive;
+}
+.answer-opt.btn.right-answer{
+    background-color: green;
+}
+.answer-opt.btn.wrong-answer{
+    background-color: red;
+}
+.quiz-card-question{
+    display: flex;
+    flex-direction: column;
+    background-color: #231F20;
+    padding: 1rem;
+    width: 50rem;
+    border-radius: 1.5rem;
+
+}
+
+.quiz-card-main.result{
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+
+
+.header-final-result{
+    align-self: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    font-family: 'Rowdies', cursive;
+}
