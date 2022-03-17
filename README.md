@@ -1,4 +1,4 @@
-# Quiz-Mini
+# Quiz-Mini Project
 
 Quizmine is a mini project on quiz about various categories.
 
